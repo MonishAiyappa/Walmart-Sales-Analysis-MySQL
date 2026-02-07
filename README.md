@@ -9,11 +9,14 @@ customer behavior, and product trends across different branches and cities.
 
 The analysis focuses on identifying top-performing product lines, popular payment methods,
 peak sales periods, and revenue contribution by branch. The insights derived from this project
+
 can help improve sales strategies and operational decision-making.
-
-## Purposes Of The Project
-
-The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+## Project Objectives
+- Analyze overall sales performance across branches and cities
+- Identify high-revenue product lines
+- Understand customer purchasing behavior
+- Determine peak sales time and preferred payment methods
+- Gain hands-on experience with MySQL for data analysis
 
 ## About Data
 
