@@ -132,32 +132,38 @@ This project demonstrates the application of MySQL for real-world sales analysis
 covering data preparation, feature engineering, and exploratory analysis to derive
 meaningful business insights.
 
-## Code
+## Code Overview
 
 For the rest of the code, check the [SQL_queries.sql](https://github.com/Princekrampah/WalmartSalesAnalysis/blob/master/SQL_queries.sql) file
 
 ```sql
--- Create database
-CREATE DATABASE IF NOT EXISTS walmartSales;
+-- CREATING AND USING A DATABASE 
 
--- Create table
-CREATE TABLE IF NOT EXISTS sales(
-	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
-    branch VARCHAR(5) NOT NULL,
-    city VARCHAR(30) NOT NULL,
-    customer_type VARCHAR(30) NOT NULL,
-    gender VARCHAR(30) NOT NULL,
-    product_line VARCHAR(100) NOT NULL,
-    unit_price DECIMAL(10,2) NOT NULL,
-    quantity INT NOT NULL,
-    tax_pct FLOAT(6,4) NOT NULL,
-    total DECIMAL(12, 4) NOT NULL,
-    date DATETIME NOT NULL,
-    time TIME NOT NULL,
-    payment VARCHAR(15) NOT NULL,
-    cogs DECIMAL(10,2) NOT NULL,
-    gross_margin_pct FLOAT(11,9),
-    gross_income DECIMAL(12, 4),
-    rating FLOAT(2, 1)
+CREATE DATABASE IF NOT EXISTS Walmart_sales_db;
+USE Walmart_sales_db;
+
+-- --------------------------------------------------------------------------------------------------------------------------------------------
+
+-- CREATING TABLES FOR WALMART ANALYSIS
+
+CREATE TABLE IF NOT EXISTS Sales (
+	Invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,  
+    Branch VARCHAR(10) NOT NULL,
+    City VARCHAR(30) NOT NULL,
+    Customer_type VARCHAR(30) NOT NULL,
+    Gender VARCHAR(10) NOT NULL,
+    Product_line VARCHAR(100) NOT NULL,
+    Unit_price DECIMAL(10,2) NOT NULL,
+    Quantity INT NOT NULL,
+    VAT_amount DECIMAL(10,2) NOT NULL,
+    Total DECIMAL(12,4) NOT NULL,
+    Transaction_date DATETIME NOT NULL,
+    Transaction_time TIME NOT NULL,
+    Payment_method VARCHAR(15) NOT NULL,
+    Cost_of_goods_sold DECIMAL(10,2) NOT NULL,
+    Gross_margin_percentage DECIMAL(5,2) NOT NULL,
+    Gross_income DECIMAL(10,2) NOT NULL,
+    Rating DECIMAL(2,1),
+    CONSTRAINT chk_rating CHECK(Rating BETWEEN 1 AND 10)
 );
 ```
