@@ -40,7 +40,7 @@ located in Mandalay, Yangon, and Naypyitaw. The data contains 17 columns and 100
 | Gender                  | Gender of the customer making purchase  | VARCHAR(10)    |
 | Product_line            | Product line of the product sold        | VARCHAR(100)   |
 | Unit_price              | The price of each product               | DECIMAL(10, 2) |
-| quantity                | The amount of the product sold          | INT            |
+| Quantity                | The amount of the product sold          | INT            |
 | VAT_amount              | The amount of tax on the purchase       | DECIMAL(10, 2) |
 | Total                   | The total cost of the purchase          | DECIMAL(12, 4) |
 | Transaction_date        | The date on which the purchase was made | DATETIME       |
