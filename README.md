@@ -1,5 +1,5 @@
 # Walmart-Sales-Analysis-MySQL
-Walmart sales data analysis project using MySQL to extract meaningful business insights and trends.
+Walmart sales data analysis project using MySQL to extract actionable business insights, trends, and customer behavior patterns.
 
 
 ## About
