@@ -18,6 +18,13 @@ can help improve sales strategies and operational decision-making.
 - Determine peak sales time and preferred payment methods
 - Gain hands-on experience with MySQL for data analysis
 
+## Skills Demonstrated
+- MySQL database creation and management
+- Writing complex SQL queries
+- Data aggregation using GROUP BY
+- Business analysis using SUM, COUNT, AVG
+- Conditional logic using CASE statements
+
 ## About Data
 
 The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
