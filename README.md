@@ -9,8 +9,8 @@ customer behavior, and product trends across different branches and cities.
 
 The analysis focuses on identifying top-performing product lines, popular payment methods,
 peak sales periods, and revenue contribution by branch. The insights derived from this project
-
 can help improve sales strategies and operational decision-making.
+
 ## Project Objectives
 - Analyze overall sales performance across branches and cities
 - Identify high-revenue product lines
