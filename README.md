@@ -134,7 +134,10 @@ meaningful business insights.
 
 ## Code Overview
 
-For the rest of the code, check the [SQL_queries.sql](https://github.com/Princekrampah/WalmartSalesAnalysis/blob/master/SQL_queries.sql) file
+This project is implemented using MySQL. Below is a sample demonstrating the
+database and table creation used in the analysis.  
+For the complete SQL implementation, including feature engineering, indexing,
+and exploratory data analysis, please refer to the full script linked below.
 
 ```sql
 -- CREATING AND USING A DATABASE 
@@ -167,3 +170,5 @@ CREATE TABLE IF NOT EXISTS Sales (
     CONSTRAINT chk_rating CHECK(Rating BETWEEN 1 AND 10)
 );
 ```
+🔗 **Full SQL Script:**  
+[Walmart_Sales_Analysis.sql](./Walmart_Sales_Analysis.sql)
