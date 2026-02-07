@@ -47,7 +47,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 | Cost_of_goods_sold      | Cost Of Goods sold                      | DECIMAL(10, 2) |
 | Gross_margin_percentage | Gross margin percentage                 | DECIMAL(5, 2)  |
 | Gross_income            | Gross Income                            | DECIMAL(10, 2) |
-| Rating                  | Rating                                  | DECIMAL(2, 1)  |
+| Rating                  | Customer rating score                   | DECIMAL(2, 1)  |
 
 ### Analysis List
 
