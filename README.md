@@ -67,6 +67,48 @@ The following features were engineered:
 Creating a view ensures data integrity, improves query reusability, and provides
 a clean separation between raw data and analytical features.
 
+## Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis was performed using MySQL to answer key business
+questions related to sales performance, customer behavior, and product trends.
+The analysis was grouped into logical categories for clarity.
+
+### General Analysis
+
+- Identified the number of unique cities and branches present in the dataset
+- Analyzed branch distribution across cities
+
+### Product Analysis
+
+- Determined the total number of unique product lines
+- Identified the most common payment method used by customers
+- Found the highest revenue-generating product line
+- Analyzed monthly revenue trends
+- Identified the month with the highest cost of goods sold (COGS)
+- Determined the city and branch generating the highest revenue
+- Analyzed VAT contribution by product line
+- Identified branches selling more products than the average
+- Analyzed product line preferences based on customer gender
+- Calculated average customer ratings for each product line
+- Classified product lines as "Good" or "Bad" based on sales performance
+
+### Sales Analysis
+
+- Analyzed the number of sales by time of day across weekdays
+- Identified customer types generating the highest revenue
+- Determined the city contributing the highest VAT
+- Calculated VAT as a percentage of total revenue by city
+- Identified the customer type contributing the most VAT
+
+### Customer Analysis
+
+- Analyzed the number of unique customer types and payment methods
+- Identified the most common customer type and gender
+- Analyzed gender distribution across branches
+- Determined the time of day when customers provide the most ratings
+- Analyzed peak rating times per branch
+- Identified the day of the week with the highest average ratings per branch
+
 
 ## Revenue And Profit Calculations
 
