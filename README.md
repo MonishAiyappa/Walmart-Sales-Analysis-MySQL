@@ -145,8 +145,8 @@ The analysis was grouped into logical categories for clarity.
 ## Conclusion
 
 This project demonstrates the application of MySQL for real-world sales analysis,
-covering data preparation, feature engineering, and exploratory analysis to derive
-meaningful business insights.
+covering data modeling, feature engineering, indexing, and exploratory analysis to
+derive meaningful business insights and support data-driven decision-making.
 
 ## Code Overview
 
