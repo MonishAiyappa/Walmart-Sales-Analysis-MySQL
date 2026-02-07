@@ -49,6 +49,17 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 | Gross_income            | Gross Income                            | DECIMAL(10, 2) |
 | Rating                  | Customer rating score                   | DECIMAL(2, 1)  |
 
+## How to Run the Project
+
+1. Clone the repository
+2. Open `Walmart_Sales_Analysis.sql` in MySQL Workbench
+3. Execute the script sequentially from top to bottom:
+   - Database & table creation
+   - Index creation
+   - Feature engineering view
+   - Exploratory analysis queries
+4. Review query outputs for insights
+
 ## Feature Engineering
 
 To enhance the analysis without altering the raw data, an analytical view
