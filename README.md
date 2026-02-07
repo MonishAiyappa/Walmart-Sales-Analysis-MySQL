@@ -4,9 +4,12 @@ Walmart sales data analysis project using MySQL to extract actionable business i
 
 ## About
 
-This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
+This project analyzes Walmart sales transaction data to understand sales performance,
+customer behavior, and product trends across different branches and cities.
 
-"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
+The analysis focuses on identifying top-performing product lines, popular payment methods,
+peak sales periods, and revenue contribution by branch. The insights derived from this project
+can help improve sales strategies and operational decision-making.
 
 ## Purposes Of The Project
 
