@@ -24,6 +24,7 @@ can help improve sales strategies and operational decision-making.
 - Data aggregation using GROUP BY
 - Business analysis using SUM, COUNT, AVG
 - Conditional logic using CASE statements
+- Query performance optimization using indexes
 
 ## Dataset Overview
 
@@ -131,6 +132,7 @@ The analysis was grouped into logical categories for clarity.
 - **Member** customers generate higher total and average revenue compared to normal customers, emphasizing the value of customer membership programs.
 - Certain cities contribute a higher **VAT percentage relative to revenue**, indicating regional differences in tax contribution and purchasing behavior.
 - Customer ratings vary by **time of day and weekday**, with specific branches receiving higher average ratings on particular days.
+- These insights can be used to optimize staffing during peak hours, promote high-performing product lines, and strengthen customer membership strategies.
 
 ## SQL Analysis Approach
 
