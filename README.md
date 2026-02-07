@@ -128,7 +128,7 @@ The analysis was grouped into logical categories for clarity.
 - Branch **A** consistently generated the highest overall revenue, indicating stronger sales performance compared to other branches.
 - **E-wallet** and **Cash** emerged as the most frequently used payment methods, highlighting customer preference for quick and flexible payment options.
 - Sales volume peaks during the **Evening**, suggesting higher customer activity after standard working hours.
-- A small number of **product lines contribute a disproportionate share of total revenue**, indicating key revenue drivers for the business.
+- A small number of product lines contribute a disproportionate share of total revenue, highlighting key focus areas for inventory and promotion strategies.
 - **Member** customers generate higher total and average revenue compared to normal customers, emphasizing the value of customer membership programs.
 - Certain cities contribute a higher **VAT percentage relative to revenue**, indicating regional differences in tax contribution and purchasing behavior.
 - Customer ratings vary by **time of day and weekday**, with specific branches receiving higher average ratings on particular days.
