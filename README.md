@@ -155,6 +155,8 @@ database and table creation used in the analysis.
 For the complete SQL implementation, including feature engineering, indexing,
 and exploratory data analysis, please refer to the full script linked below.
 
+This snippet provides an overview of the database schema used for analysis.
+
 ```sql
 -- CREATING AND USING A DATABASE 
 
