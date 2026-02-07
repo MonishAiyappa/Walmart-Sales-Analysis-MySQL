@@ -110,36 +110,27 @@ The analysis was grouped into logical categories for clarity.
 - Identified the day of the week with the highest average ratings per branch
 
 
-## Revenue And Profit Calculations
+## Key Insights
 
-$ COGS = unitsPrice * quantity $
+- Branch A generated the highest overall revenue
+- E-wallet and cash are the most commonly used payment methods
+- Sales peak during evening hours
+- Certain product lines contribute disproportionately to total revenue
+- Customer type "Member" contributes higher average revenue
 
-$ VAT = 5\% * COGS $
+## SQL Analysis Approach
 
-$VAT$ is added to the $COGS$ and this is what is billed to the customer.
+- Used GROUP BY and aggregate functions for summarization
+- Applied CASE statements for categorical analysis
+- Created analytical views for feature engineering
+- Used subqueries and HAVING clauses for comparative analysis
+- Implemented indexing to optimize query performance
 
-$ total(gross_sales) = VAT + COGS $
+## Conclusion
 
-$ grossProfit(grossIncome) = total(gross_sales) - COGS $
-
-**Gross Margin** is gross profit expressed in percentage of the total(gross profit/revenue)
-
-$ \text{Gross Margin} = \frac{\text{gross income}}{\text{total revenue}} $
-
-<u>**Example with the first row in our DB:**</u>
-
-**Data given:**
-
-- $ \text{Unite Price} = 45.79 $
-- $ \text{Quantity} = 7 $
-
-$ COGS = 45.79 * 7 = 320.53 $
-
-$ \text{VAT} = 5\% * COGS\\= 5\%  320.53 = 16.0265 $
-
-$ total = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
-
-$ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\\=\frac{16.0265}{336.5565} = 0.047619\\\approx 4.7619\% $
+This project demonstrates the application of MySQL for real-world sales analysis,
+covering data preparation, feature engineering, and exploratory analysis to derive
+meaningful business insights.
 
 ## Code
 
