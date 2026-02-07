@@ -123,11 +123,13 @@ The analysis was grouped into logical categories for clarity.
 
 ## Key Insights
 
-- Branch A generated the highest overall revenue
-- E-wallet and cash are the most commonly used payment methods
-- Sales peak during evening hours
-- Certain product lines contribute disproportionately to total revenue
-- Customer type "Member" contributes higher average revenue
+- Branch **A** consistently generated the highest overall revenue, indicating stronger sales performance compared to other branches.
+- **E-wallet** and **Cash** emerged as the most frequently used payment methods, highlighting customer preference for quick and flexible payment options.
+- Sales volume peaks during the **Evening**, suggesting higher customer activity after standard working hours.
+- A small number of **product lines contribute a disproportionate share of total revenue**, indicating key revenue drivers for the business.
+- **Member** customers generate higher total and average revenue compared to normal customers, emphasizing the value of customer membership programs.
+- Certain cities contribute a higher **VAT percentage relative to revenue**, indicating regional differences in tax contribution and purchasing behavior.
+- Customer ratings vary by **time of day and weekday**, with specific branches receiving higher average ratings on particular days.
 
 ## SQL Analysis Approach
 
